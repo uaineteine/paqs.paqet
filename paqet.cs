@@ -1,5 +1,6 @@
 ﻿namespace paqs.paqet
 {
+    using Newtonsoft.Json;
     using System;
 
     public static class MultipacketFlagTypes
@@ -57,6 +58,16 @@
             {
                 throw new ArgumentException("Invalid packet data");
             }
+        }
+
+        public string ToJson()
+        {
+            return JsonConvert.SerializeObject(this);
+        }
+
+        public static Paqet FromJson(string json)
+        {
+            return JsonConvert.DeserializeObject<Paqet>(json);
         }
     }
 }
