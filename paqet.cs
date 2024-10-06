@@ -12,6 +12,7 @@
 
     public class Paqet
     {
+        public const int paqsmetaver = 1;
         public const int HeaderSize = 10; // Size of the header in bytes (4 bytes for VirtualPort + 1 byte for Type + 1 byte for MultipacketFlag + 4 bytes for DataSize)
 
         public int VirtualPort { get; set; }

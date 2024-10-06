@@ -1,4 +1,4 @@
-# Packet Library - Header Structure
+# Packet Library v1.0.1
 
 This library provides functionalities to create and parse packets represented as byte arrays. The header structure of the packets is defined as follows:
 

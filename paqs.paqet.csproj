@@ -5,16 +5,24 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageProjectUrl>https://github.com/uaineteine/paqs.paqet</PackageProjectUrl>
-    <FileVersion>1.0</FileVersion>
-    <Version>1.0</Version>
-    <AssemblyVersion>1.0</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
     <Company>Daniel Stamer-Squair</Company>
     <Authors>Daniel Stamer-Squair</Authors>
     <Copyright>Daniel Stamer-Squair 2024</Copyright>
+    <PackageIcon>icon2.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="icon2.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
